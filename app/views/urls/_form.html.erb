@@ -1,0 +1,18 @@
+<%= form_for @shortened_url, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :url, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :url, :class => 'text_field' %>
+    </div>
+  </div>
+
+    <% if @shortened_url.errors[:url].any? %>
+        <p class='error-messages'>
+          The given url <%= @shortened_url.errors[:url].to_sentence %>.  *Hint - don't forget to add http://
+        </p>
+    <% end %>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+  </div>
+<% end %>
