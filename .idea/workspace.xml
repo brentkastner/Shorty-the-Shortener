@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3510fc6-0807-45a2-8fd7-a91011824a5f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/shorty.iml" afterPath="$PROJECT_DIR$/.idea/shorty.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/url.rb" afterPath="$PROJECT_DIR$/app/models/url.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="shorty.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,13 +13,13 @@
     <file path="/application.html.erb" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384396220048" ignored="false" />
     <file path="/new.html.erb" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384394699170" ignored="false" />
     <file path="/url_test.rb" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384398766575" ignored="false" />
-    <file path="$PROJECT_DIR$/log/development.log" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384386458268" ignored="false" />
-    <file path="/Gemfile" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384398380043" ignored="false" />
+    <file path="/Gemfile" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384399678626" ignored="false" />
     <file path="/20131113234207_add_clicks_to_url.rb" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384386221909" ignored="false" />
     <file path="/bootstrap_and_overrides.css.less" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384394177552" ignored="false" />
     <file path="/_form.html.erb" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384396044639" ignored="false" />
     <file path="/en.bootstrap.yml" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384394803514" ignored="false" />
     <file path="/Dummy.txt" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384397714876" ignored="false" />
+    <file path="$PROJECT_DIR$/log/development.log" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384399438917" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +71,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="14" selection-start="189" selection-end="189" vertical-scroll-proportion="0.13348165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/urls/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="url.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="url.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/url.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="88" selection-start="210" selection-end="210" vertical-scroll-proportion="0.13348165">
+            <state line="19" column="39" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,11 +144,11 @@
         <option value="$PROJECT_DIR$/app/views/urls/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/test" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
         <option value="$PROJECT_DIR$/test/models/url_test.rb" />
         <option value="$PROJECT_DIR$/app/models/url.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -157,8 +160,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="28" />
+    <option name="x" value="463" />
+    <option name="y" value="32" />
     <option name="width" value="1334" />
     <option name="height" value="1024" />
   </component>
@@ -743,7 +746,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="28" width="1334" height="1024" extended-state="0" />
+    <frame x="463" y="32" width="1334" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -894,13 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="97" selection-start="924" selection-end="924" vertical-scroll-proportion="0.5650685">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/url_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="91" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
@@ -931,7 +927,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/url.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="88" selection-start="210" selection-end="210" vertical-scroll-proportion="0.13348165">
+        <state line="19" column="39" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="189" selection-end="189" vertical-scroll-proportion="0.13348165">
           <folding />
         </state>
       </provider>
