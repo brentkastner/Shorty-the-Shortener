@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3510fc6-0807-45a2-8fd7-a91011824a5f" name="Default" comment="" />
+    <list default="true" id="d3510fc6-0807-45a2-8fd7-a91011824a5f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/shorty.iml" afterPath="$PROJECT_DIR$/.idea/shorty.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="shorty.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/20131113213947_create_urls.rb" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384378929511" ignored="false" />
@@ -12,11 +21,12 @@
     <file path="/new.html.erb" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384394699170" ignored="false" />
     <file path="/url_test.rb" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384395871109" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384386458268" ignored="false" />
-    <file path="/Gemfile" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384393453033" ignored="false" />
+    <file path="/Gemfile" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384397725310" ignored="false" />
     <file path="/20131113234207_add_clicks_to_url.rb" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384386221909" ignored="false" />
     <file path="/bootstrap_and_overrides.css.less" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384394177552" ignored="false" />
     <file path="/_form.html.erb" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384396044639" ignored="false" />
     <file path="/en.bootstrap.yml" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384394803514" ignored="false" />
+    <file path="/Dummy.txt" changelist="d3510fc6-0807-45a2-8fd7-a91011824a5f" time="1384397714876" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="url_test.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="url_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/models/url_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="42" selection-start="989" selection-end="989" vertical-scroll-proportion="0.51369864">
+            <state line="58" column="46" selection-start="1518" selection-end="1551" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,19 +123,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+            <state line="32" column="40" selection-start="910" selection-end="910" vertical-scroll-proportion="0.5479452">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap_and_overrides.css.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="25" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+            <state line="29" column="41" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,6 +148,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -145,7 +163,6 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="dbtable:/dfaf1502/334b31a5-d48f-4cb1-b4e5-1d8a56595044/..schema_migrations" />
         <option value="$PROJECT_DIR$/db/migrate/20131113234207_add_clicks_to_url.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
         <option value="$PROJECT_DIR$/app/views/urls/new.html.erb" />
         <option value="$PROJECT_DIR$/config/locales/en.bootstrap.yml" />
@@ -155,6 +172,8 @@
         <option value="$PROJECT_DIR$/test/models/url_test.rb" />
         <option value="$PROJECT_DIR$/app/models/url.rb" />
         <option value="$PROJECT_DIR$/app/controllers/urls_controller.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -171,7 +190,7 @@
     <option name="width" value="1334" />
     <option name="height" value="1024" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -435,10 +454,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Database.TableEditor.Splitter" value="0.9" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
   </component>
@@ -722,6 +745,23 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d3510fc6-0807-45a2-8fd7-a91011824a5f" name="Default" comment="" />
@@ -816,11 +856,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@rails3-devise-rspec-cucumber/gems/actionpack-4.0.1/lib/action_dispatch/middleware/flash.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="0" selection-start="6796" selection-end="6796" vertical-scroll-proportion="0.31758034" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@rails3-devise-rspec-cucumber/gems/rack-1.5.2/lib/rack/session/abstract/id.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="225" column="0" selection-start="5850" selection-end="5850" vertical-scroll-proportion="0.31758034" />
@@ -829,13 +864,6 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
@@ -917,7 +945,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/models/url_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="989" selection-end="989" vertical-scroll-proportion="0.51369864">
+        <state line="58" column="46" selection-start="1518" selection-end="1551" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="41" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="40" selection-start="910" selection-end="910" vertical-scroll-proportion="0.5479452">
           <folding />
         </state>
       </provider>
