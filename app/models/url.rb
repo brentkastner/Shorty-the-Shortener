@@ -10,9 +10,8 @@ class Url < ActiveRecord::Base
     find short_code.to_i(36)
   end
 
-  def self.click_counter(my_url)
-    my_url.clicks = my_url.clicks + 1
-    my_url.save
+  def click_counter
+    self.increment!(:clicks)
 
   end
 

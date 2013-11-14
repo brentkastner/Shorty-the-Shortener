@@ -38,7 +38,7 @@ class UrlTest < ActiveSupport::TestCase
 
     starting_click_count = my_url.clicks
 
-    Url.click_counter(my_url)
+    my_url.click_counter
 
     my_url.reload
     ending_click_count = my_url.clicks

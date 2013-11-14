@@ -19,7 +19,7 @@ class UrlsController < ApplicationController
     #@shortened_url = Url.find(params[:id])
     @shortened_url = Url.find_using_short_code!(params[:id])
     redirect_to @shortened_url.url
-    Url.click_counter(@shortened_url)
+    @shortened_url.click_counter
   end
 
   private
