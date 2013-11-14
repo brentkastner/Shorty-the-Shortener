@@ -24,8 +24,7 @@
   <div class="span9">
     <% if flash[:short_code].present? %>
         <p class='shortened-link'>
-          The shortened url is available <%= link_to 'here', url_url(flash[:short_code]) %>
-          (Right click and copy link to share it).
+          The shortened url is available: <h3><%= url_url(flash[:short_code]) %></h3>Copy and paste to share or click here to be redirected automatically!
         </p>
     <% end %>
     <%= yield %>

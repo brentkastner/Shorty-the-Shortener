@@ -11,8 +11,6 @@ class Url < ActiveRecord::Base
   end
 
   def self.click_counter(my_url)
-
-    #find my_url
     my_url.clicks = my_url.clicks + 1
     my_url.save
 
