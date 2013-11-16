@@ -26,12 +26,12 @@
         <p class='shortened-link'>
 
           <% if request.port > 80 %>
-               <% url = request.host_with_port + '/' + flash[:short_code]%>
+            <% url = request.host_with_port + '/' + flash[:short_code]%>
 
           <% else %>
             <% url = request.host + '/' + flash[:short_code] %>
           <% end %>
-          The shortened url is available: <h3><%= url %></h3>Copy and paste to share or click <%= link_to 'here', url %> to be redirected automatically!
+          The shortened url is available: <h3><%= url %></h3>Copy and paste to share or click <a href="<%= url %>">here</a> to be redirected automatically!
 
 
         </p>
