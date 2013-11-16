@@ -1,28 +1,24 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the opensource project for a255.com.  A255 is a fairly straight-forward link shortening tool that provides
+basic url tracking.  View time of click, number of clicks, user agents, and source IP address.  An API version will soon be added
+for even easier integration with other projects.
 
-Things you may want to cover:
+This project is aimed at being a pure example of TDD, Continuous Integration, and Continuous deployment using:
 
-* Ruby version
+Ruby on Rails (ruby 2.0.0 rails 4.0.1)
+Test::Unit
+GitHub
+Circle CI
+Heroku
 
-* System dependencies
+If you want to download and install this application simply:
 
-* Configuration
+1.) Clone into your own Git repository
+2.) Run `bundle install --without production`
+3.) Run `rake db:migrate`
+4.) Run `rails s`
 
-* Database creation
+It should come up straight-away.  If not email me directly at brent@rockstarsoftware.net and we can troubleshoot it together!
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Happy shortening
