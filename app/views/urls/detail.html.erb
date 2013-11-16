@@ -27,6 +27,7 @@
     <th>IP</th>
     <th>User Agent</th>
     <th>Time Clicked</th>
+    <th>Country/City</th>
   </tr>
   </thead>
   <tbody>
@@ -36,7 +37,9 @@
         <td><%= url.ip %></td>
         <td><%= url.agent %></td>
         <td><%=l url.created_at %></td>
-
+        <% unless url.ip == '127.0.0.1' %>
+        <td><%= url.country + '/' + url.city(url.ip) %></td>
+        <% end %>
       </tr>
   <% end %>
   </tbody>
