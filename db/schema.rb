@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131116022259) do
+ActiveRecord::Schema.define(version: 20131116234120) do
 
   create_table "clicksources", force: true do |t|
     t.string   "ip"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20131116022259) do
     t.integer  "url_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "referer"
   end
 
   add_index "clicksources", ["url_id"], name: "index_clicksources_on_url_id"

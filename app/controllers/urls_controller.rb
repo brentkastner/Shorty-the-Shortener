@@ -20,7 +20,7 @@ class UrlsController < ApplicationController
     @shortened_url = Url.find_using_short_code!(params[:id])
     redirect_to @shortened_url.url
     @shortened_url.click_counter
-    c = Clicksource.create!(:ip => request.remote_ip, :agent => request.user_agent, :url_id => @shortened_url.id)
+    c = Clicksource.create!(:ip => request.remote_ip, :agent => request.user_agent, :url_id => @shortened_url.id, :referer => request.referer)
   end
 
   def detail
