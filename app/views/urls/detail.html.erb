@@ -38,7 +38,7 @@
         <td><%= url.agent %></td>
         <td><%=l url.created_at %></td>
         <% unless url.ip == '127.0.0.1' %>
-        <td><%= url.country + '/' + url.city(url.ip) %></td>
+        <td><%= url.country(url.ip) + '/' + url.city(url.ip) %></td>
         <% end %>
       </tr>
   <% end %>
