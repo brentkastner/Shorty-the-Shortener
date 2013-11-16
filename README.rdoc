@@ -1,6 +1,6 @@
 == README
 
-This is the opensource project for a255.com.  A255 is a fairly straight-forward link shortening tool that provides
+This is the opensource project for a255.co.  A255.co is a fairly straight-forward link shortening tool that provides
 basic url tracking.  View time of click, number of clicks, user agents, and source IP address.  An API version will soon be added
 for even easier integration with other projects.
 
