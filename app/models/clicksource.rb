@@ -6,13 +6,13 @@ class Clicksource < ActiveRecord::Base
 
 
 
-  def city(ip)
-    c = GeoIP.new('lib/GeoLiteCity.dat').city(ip)
+  def city
+    c = GeoIP.new('lib/GeoLiteCity.dat').city(self.ip)
     c.city_name
   end
 
-  def country(ip)
-    c = GeoIP.new('lib/GeoLiteCity.dat').city(ip)
+  def country
+    c = GeoIP.new('lib/GeoLiteCity.dat').city(self.ip)
     c.country_name
   end
 
