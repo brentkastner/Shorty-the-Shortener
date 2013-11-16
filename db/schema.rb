@@ -11,7 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131113234207) do
+ActiveRecord::Schema.define(version: 20131116022259) do
+
+  create_table "clicksources", force: true do |t|
+    t.string   "ip"
+    t.string   "agent"
+    t.integer  "url_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "clicksources", ["url_id"], name: "index_clicksources_on_url_id"
 
   create_table "urls", force: true do |t|
     t.string   "url",                    null: false

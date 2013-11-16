@@ -2,6 +2,8 @@ class Url < ActiveRecord::Base
   validates :url, :presence => true
   validates :url, :format => URI::regexp(%w(http https))
 
+  has_many :clicksources
+
   def short_code
     id.to_s(36)
   end
