@@ -32,7 +32,8 @@
             <% url = request.domain + '/' + flash[:short_code] %>
           <% end %>
           The shortened url is available: <h3><%= url %></h3>Copy and paste to share or click <a href="<%= request.protocol + url %>">here</a> to be redirected automatically!
-
+          <br/>
+          View statistics on this url by visiting <h3><%= url + '~' %></h3>
 
         </p>
     <% end %>

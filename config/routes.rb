@@ -1,6 +1,7 @@
 Shorty::Application.routes.draw do
   resources :urls, :only => [:show, :new, :create]
 
+  get '/:id~' => 'urls#detail'
   get '/:id' => 'urls#show'
 
   root :to => redirect('/urls/new')

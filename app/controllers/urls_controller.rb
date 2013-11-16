@@ -23,6 +23,13 @@ class UrlsController < ApplicationController
     c = Clicksource.create!(:ip => request.remote_ip, :agent => request.user_agent, :url_id => @shortened_url.id)
   end
 
+  def detail
+    my_id = params[:id]
+    my_id.chomp!
+    @url = Url.find_using_short_code!(my_id)
+    puts @url
+  end
+
   private
 
   def url_params

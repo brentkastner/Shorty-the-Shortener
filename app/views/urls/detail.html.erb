@@ -1,0 +1,49 @@
+<%- model_class = Url -%>
+<% if request.port > 80 %>
+    <% url = request.domain + ':' + request.port.to_s + '/' + @url.short_code%>
+
+<% else %>
+    <% url = request.domain + '/' + @url.short_code %>
+<% end %>
+
+<div class="page-header">
+  <h1><%=url %></h1>
+</div>
+
+
+
+<dl class="dl-horizontal">
+  <dt><strong>Shortened URL:</strong></dt>
+  <dd><%= request.protocol + url %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:url) %>:</strong></dt>
+  <dd><%= @url.url %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:clicks) %>:</strong></dt>
+  <dd><%= @url.clicks %></dd>
+</dl>
+
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th>IP</th>
+    <th>User Agent</th>
+    <th>Time Clicked</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @url.clicksources.each do |url| %>
+      <tr>
+
+        <td><%= url.ip %></td>
+        <td><%= url.agent %></td>
+        <td><%=l url.created_at %></td>
+
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<div class="form-actions">
+  <%= link_to t('.back', :default => t("helpers.links.back")),
+              '/', :class => 'btn'  %>
+
+</div>
