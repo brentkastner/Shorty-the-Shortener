@@ -64,6 +64,8 @@ class UrlTest < ActiveSupport::TestCase
 
   #test 'number of clicks increments every time redirect is called'
 
-
-
+  test 'urls are case insensitive' do
+    my_url = Url.create!(:url => 'HTTP://www.google.com')
+    assert my_url.present?
+  end
 end

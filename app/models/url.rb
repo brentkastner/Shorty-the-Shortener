@@ -1,6 +1,6 @@
 class Url < ActiveRecord::Base
   validates :url, :presence => true
-  validates :url, :format => URI::regexp(%w(http https))
+  validates_format_of :url, :with => /^(http|https|ftp|ftps):\/\/(([a-z0-9]+\:)?[a-z0-9]+\@)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?$/ix, :multiline => true
 
   has_many :clicksources
 
