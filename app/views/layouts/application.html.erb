@@ -32,8 +32,7 @@
             <% url = request.domain + '/' + flash[:short_code] %>
           <% end %>
           The shortened url is available: <h3><%= url %></h3>Copy and paste to share or click <a href="<%= request.protocol + url %>">here</a> to be redirected automatically!
-          <br/>
-          View statistics on this url by visiting <h3><%= url + '~' %></h3>
+
 
         </p>
     <% end %>
@@ -42,7 +41,10 @@
     <%= yield %>
 
   </div>
-  <div class="span3">
+  <div class="span3"><% if flash[:short_code].present? %>
+        <img src="/statistics3.jpg"></img>
+        View statistics on this url by visiting <%= link_to url + '~', url + '~' %>
+        <% end %>
   </div>
 
 
