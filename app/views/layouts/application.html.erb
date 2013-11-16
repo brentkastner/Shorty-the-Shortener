@@ -43,7 +43,7 @@
   </div>
   <div class="span3"><% if flash[:short_code].present? %>
         <img src="/statistics3.jpg"></img>
-        View statistics on this url by visiting <%= link_to url + '~', url + '~' %>
+        View statistics on this url by visiting <a href="<%= request.protocol + url + '~'%>"><%= url + '~'%></a>
         <% end %>
   </div>
 
