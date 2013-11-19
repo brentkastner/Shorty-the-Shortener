@@ -16,4 +16,15 @@ class UrlsControllerTest < ActionController::TestCase
 
   end
 
+  test 'redirect to end url' do
+
+    get :create, url: {url: urls(:one).url}
+
+    get :show, :id => flash[:short_code]
+
+    puts assigns(:url)
+    assert_redirected_to(urls(:one).url)
+
+  end
+
 end

@@ -31,7 +31,7 @@
   </tr>
   </thead>
   <tbody>
-  <% @url.clicksources.each do |url| %>
+  <% @url.clicksources.order("id DESC").each do |url| %>
       <tr>
 
         <td><%= url.ip %></td>
