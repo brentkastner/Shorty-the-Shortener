@@ -68,4 +68,11 @@ class UrlTest < ActiveSupport::TestCase
     my_url = Url.create!(:url => 'HTTP://www.google.com')
     assert my_url.present?
   end
+
+  test 'use fixture two' do
+    urls(:two)
+    assert urls(:two).id.present?
+    assert_instance_of(Url, urls(:two))
+    assert_instance_of(Clicksource, clicksources(:two))
+  end
 end
