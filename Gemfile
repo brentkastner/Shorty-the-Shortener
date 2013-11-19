@@ -13,6 +13,7 @@ end
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'simplecov', :require => false
 end
 
 # Use SCSS for stylesheets
