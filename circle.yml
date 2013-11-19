@@ -3,7 +3,7 @@ deployment:
     branch: master
     commands:
       - heroku maintenance:on --app lit-ocean-5129
-      - heroku pgbackups --app lit-ocean-5129
+      - heroku pgbackups:capture --app lit-ocean-5129
       - git push git@heroku.com:lit-ocean-5129.git $CIRCLE_SHA1:refs/heads/master
       - heroku run rake db:migrate --app lit-ocean-5129
       - heroku maintenance:off --app lit-ocean-5129
