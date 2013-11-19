@@ -9,3 +9,8 @@ two:
   ip: '65.10.1.29'
   agent: OtherAgent
   url_id: urls(:two).id
+
+three:
+  ip: '192.99.1.117'
+  agent: desktop
+  url_id: urls(:one).id

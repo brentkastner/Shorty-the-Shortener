@@ -36,4 +36,10 @@ class ClicksourceTest < ActiveSupport::TestCase
     end
   end
 
+  test 'return city name' do
+    assert(clicksources(:three).city.present?)
+
+  end
+
+
 end

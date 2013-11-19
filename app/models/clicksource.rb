@@ -8,12 +8,12 @@ class Clicksource < ActiveRecord::Base
 
   def city
     c = GeoIP.new('lib/GeoLiteCity.dat').city(self.ip)
-    c.city_name
+    c.city_name.encode('utf-8')
   end
 
   def country
     c = GeoIP.new('lib/GeoLiteCity.dat').city(self.ip)
-    c.country_name
+    c.country_name.encode('utf-8')
   end
 
 end
