@@ -3,3 +3,9 @@ deployment:
     branch: master
     heroku:
       appname: lit-ocean-5129
+    commands:
+      - heroku maintenance:on --app lit-ocean-5129
+      - heroku pgbackups
+      - heroku run rake db:migrate --app lit-ocean-5129:
+        timeout: 100
+      - heroku maintenance:off --app lit-ocean-5129
